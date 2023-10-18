@@ -46,24 +46,24 @@ console.log(teamMembers);
 // - stampare le informazioni dei membri nel dom
 document.getElementById('member1name').innerHTML = member1.name;
 document.getElementById('member1role').innerHTML = member1.role;
-document.getElementById('member1pic').innerHTML = member1.photo;
+document.getElementById('member1pic').innerHTML = `<img src="./img/${member1.photo}">`;
 
 document.getElementById('member2name').innerHTML = member2.name;
 document.getElementById('member2role').innerHTML = member2.role;
-document.getElementById('member2pic').innerHTML = member2.photo;
+document.getElementById('member2pic').innerHTML = `<img src="./img/${member2.photo}">`;
 
 document.getElementById('member3name').innerHTML = member3.name;
 document.getElementById('member3role').innerHTML = member3.role;
-document.getElementById('member3pic').innerHTML = member3.photo;
+document.getElementById('member3pic').innerHTML = `<img src="./img/${member3.photo}">`;
 
 document.getElementById('member4name').innerHTML = member4.name;
 document.getElementById('member4role').innerHTML = member4.role;
-document.getElementById('member4pic').innerHTML = member4.photo;
+document.getElementById('member4pic').innerHTML = `<img src="./img/${member4.photo}">`;
 
 document.getElementById('member5name').innerHTML = member5.name;
 document.getElementById('member5role').innerHTML = member5.role;
-document.getElementById('member5pic').innerHTML = member5.photo;
+document.getElementById('member5pic').innerHTML = `<img src="./img/${member5.photo}">`;
 
 document.getElementById('member6name').innerHTML = member6.name;
 document.getElementById('member6role').innerHTML = member6.role;
-document.getElementById('member6pic').innerHTML = member6.photo;
+document.getElementById('member6pic').innerHTML = `<img src="./img/${member6.photo}">`;
